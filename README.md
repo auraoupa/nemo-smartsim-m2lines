@@ -38,4 +38,4 @@ INPUTS and FORCINGS are gathered in separate repositories
 
  - The reference run [EXP00](https://github.com/auraoupa/nemo-smartsim-m2lines/tree/main/MED025.L75-JZAA001/EXP00) is done by running NEMO alone on 40 cores (1 node)
 
- - The first SmartSim experiment [EXP_SMSIM](https://github.com/auraoupa/nemo-smartsim-m2lines/tree/main/MED025.L75-JZAA001/EXP_SMSIM] is designed to reproduce the reference run with SmartSim orchestrator that launches also a database that will be later used to exchange data between NEMO and python and ML models
+ - The first SmartSim experiment [EXP_SMSIM](https://github.com/auraoupa/nemo-smartsim-m2lines/tree/main/MED025.L75-JZAA001/EXP_SMSIM) is designed to reproduce the reference run with SmartSim orchestrator that launches also a database that will be later used to exchange data between NEMO and python and ML models
