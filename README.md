@@ -34,7 +34,8 @@ NEMO is compiled with smartredis library.
 
 ## First experiments
 
-INPUTS and FORCINGS are gathered in separate 
-The reference run EXP00 is done by running NEMO alone on 40 cores (1 node)
+INPUTS and FORCINGS are gathered in separate repositories
 
-The first SmartSim experiment EXP_SMSIM is designed to reproduce the reference run with SmartSim orchestrator that launches also a database that will be later used to exchange data between NEMO and python and ML models
+ - The reference run EXP00 is done by running NEMO alone on 40 cores (1 node)
+
+ - The first SmartSim experiment EXP_SMSIM is designed to reproduce the reference run with SmartSim orchestrator that launches also a database that will be later used to exchange data between NEMO and python and ML models
