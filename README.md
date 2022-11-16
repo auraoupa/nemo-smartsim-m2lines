@@ -4,7 +4,7 @@ This work is part of M2LINES project and is done in collaboration with [Anastasi
 
 We want to use [SmartSim](https://www.craylabs.org/docs/index.html) in coordination with [NEMO](https://www.nemo-ocean.eu/) to replace some parametrizations by machine learning inferences.
 
-This work is done on IDRIS' Jea-Zay supercomputer
+This work is done on IDRIS' Jean-Zay supercomputer
 
 ## Installation
 
