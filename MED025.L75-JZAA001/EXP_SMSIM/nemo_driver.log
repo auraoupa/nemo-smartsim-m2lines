@@ -1,0 +1,150 @@
+15:08:32 r1i1n23 SmartSim[781372] INFO Working in previously created experiment
+15:08:45 r1i1n23 SmartSim[781372] DEBUG Configuring model nemo with params {'NN_NO': 1, 'NIT000': 1, 'NITEND': 6000, 'RESTART': '.false.', 'CN_DIRRST': '/gpfswork/rech/eee/rote001/nemo4-imhotep-main/cfgs/MED025.L75-JZAA001'}
+15:08:45 r1i1n23 SmartSim[781372] WARNING Unused tag  partial slip (0-2)  on line(s): [57]
+15:08:45 r1i1n23 SmartSim[781372] WARNING Unused tag  partial slip (0-2)  on line(s): [57]
+15:08:45 r1i1n23 SmartSim[781372] INFO 
+
+=== Launch Summary ===
+Experiment: NEMO-MEDITERR
+Experiment Path: /gpfsdswork/projects/rech/eee/rote001/nemo4-imhotep-main/cfgs/MED025.L75-JZAA001/EXP_SMSIM/NEMO-MEDITERR
+Launcher: local
+Models: 1
+Database Status: launching
+
+=== Models ===
+nemo
+Executable: /gpfswork/rech/eee/rote001/nemo4-imhotep-main/cfgs/MED025.L75-JZAA001/BLD/bin/nemo.exe
+Executable Arguments: 
+Run Command: srun
+Parameters: 
+	NN_NO = 1
+	NIT000 = 1
+	NITEND = 6000
+	RESTART = .false.
+	CN_DIRRST = /gpfswork/rech/eee/rote001/nemo4-imhotep-main/cfgs/MED025.L75-JZAA001
+
+=== Database ===
+Shards: 1
+Port: 6780
+Network: ib0
+Batch Launch: False
+
+
+15:08:55 r1i1n23 SmartSim[781372] DEBUG Launching orchestrator_0
+15:09:15 r1i1n23 SmartSim[781372] DEBUG Waiting for Redis output files to populate...
+15:09:15 r1i1n23 SmartSim[781372] DEBUG Orchestrator launched on nodes: ['10.148.1.119']
+15:09:16 r1i1n23 SmartSim[781372] DEBUG Launching nemo
+15:09:16 r1i1n23 SmartSim[781372] DEBUG Starting Job Manager
+15:09:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:09:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:10:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:11:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:12:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:13:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:14:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:15:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:16:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:26 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:31 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:36 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:41 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:46 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:51 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:17:56 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:01 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:06 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:11 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:16 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:21 r1i1n23 SmartSim[781372] INFO nemo(781529): Running
+15:18:22 r1i1n23 SmartSim[781372] INFO nemo(781529): Completed
+15:18:26 r1i1n23 SmartSim[781372] INFO Stopping model orchestrator_0 with job name orchestrator_0-CODS2RF3XGF3
+15:18:26 r1i1n23 SmartSim[781372] DEBUG Process terminated with kill 781510
+15:18:26 r1i1n23 SmartSim[781372] DEBUG Process terminated with kill 781445
