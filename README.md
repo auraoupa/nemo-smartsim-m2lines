@@ -47,6 +47,10 @@ INPUTS and FORCINGS are gathered in separate repositories
  Now I want to modify NEMO to include communications to the database, so I create a new experiment:
  
   - in NEMO tree, I add the line ```MED025.L75-JZAA002  OCE ICE``` to the work_cfgs.txt file
-  - I ask for a compilation node on jean-zay : with ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:20:00 --account=cli@cpu bash```
+  - I ask for a compilation node on jean-zay with 
+  ```
+  srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:20:00 --account=cli@cpu bash
+  ```
+  - I load the smartsim environment variables
   - then I run the compilation : ```./makenemo -r 'MED025.L75-JZAA002' -m 'X64_JEANZAY_smartsim```
   - I add the modifications to some NEMO routine in MY_SRC : 
