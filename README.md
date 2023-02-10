@@ -41,3 +41,12 @@ INPUTS and FORCINGS are gathered in separate repositories
  - The first SmartSim experiment [EXP_SMSIM](https://github.com/auraoupa/nemo-smartsim-m2lines/tree/main/MED025.L75-JZAA001/EXP_SMSIM) is designed to reproduce the reference run with SmartSim orchestrator that launches also a database that will be later used to exchange data between NEMO and python and ML models
  
  - The second SmartSim experiment [EXP_SSINT]() does exactly the same than the previous test but interactively 
+ 
+ ## New experiment
+ 
+ Now I want to modify NEMO to include communications to the database, so I create a new experiment:
+ 
+  - in NEMO tree, I add the line ```MED025.L75-JZAA002  OCE ICE``` to the work_cfgs.txt file
+  - I ask for a compilation node on jean-zay : with ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:20:00 --account=cli@cpu bash```
+  - then I run the compilation : ```./makenemo -r 'MED025.L75-JZAA002' -m 'X64_JEANZAY_smartsim```
+  - I add the modifications to some NEMO routine in MY_SRC : 
