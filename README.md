@@ -54,3 +54,30 @@ INPUTS and FORCINGS are gathered in separate repositories
   - I load the smartsim environment variables
   - then I run the compilation : ```./makenemo -r 'MED025.L75-JZAA002' -m 'X64_JEANZAY_smartsim```
   - I add the modifications to some NEMO routine in MY_SRC : 
+
+### Installation of smartsim & smartredis from source
+
+```bash
+conda create --name mysm
+conda install python=3.8.8
+conda install -c anaconda pip
+conda install -c anaconda cmake
+conda install git-lfs
+conda install -c anaconda cudnn
+conda install -c nvidia cuda-toolkit
+
+git clone https://github.com/CrayLabs/SmartSim smartsim
+cd smartsim/
+pip install -e .[dev]
+
+smart build -v --device cpu 
+
+pip install smartredis==0.3.1
+
+git clone https://github.com/CrayLabs/SmartRedis.git --depth=1 --branch v0.3.1 smartredis
+cd smartredis
+make lib
+```
+
+
+
